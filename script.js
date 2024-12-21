@@ -1,5 +1,6 @@
+
 async function fetchDataFromNotion() {
-    const notionDatabaseID = '9e330964fd1d4144abc27d911c1b18b7'; // Sostituisci con l'ID del tuo database
+    const notionDatabaseID = 'your-database-id'; // Sostituisci con l'ID del tuo database
     const token = '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'; // Sostituisci con il tuo token di accesso
 
     const response = await fetch(`https://api.notion.com/v1/databases/${notionDatabaseID}/query`, {
